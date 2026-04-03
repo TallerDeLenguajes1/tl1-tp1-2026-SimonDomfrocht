@@ -109,3 +109,17 @@ Con el valor inicial `452`, el recorrido completo fue:
 `452 → 254 → 127 → 137`
 
 Por lo tanto, el resultado final del programa es `137`.
+
+## Punto 4
+
+En los apartados 2 y 3 del ejercicio, el resultado obtenido es el mismo porque en ambos casos se muestra la dirección de memoria de la variable.
+
+En el punto 2, al imprimir `puntero`, se muestra la dirección de memoria almacenada dentro del puntero. Como el puntero apunta a la variable, esa dirección es justamente la dirección de la variable.
+
+En el punto 3, al imprimir `&variable`, también se muestra la dirección de memoria de la variable.
+
+Por eso ambos resultados coinciden.
+
+En el punto 4, al imprimir `&puntero`, lo que se obtiene es la dirección de memoria del puntero como variable, no la dirección de la variable apuntada.
+
+Ese valor no es igual a los anteriores, porque el puntero también ocupa un espacio propio en memoria y tiene su propia dirección.
