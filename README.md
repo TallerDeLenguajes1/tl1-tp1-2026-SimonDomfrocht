@@ -110,6 +110,8 @@ Con el valor inicial `452`, el recorrido completo fue:
 
 Por lo tanto, el resultado final del programa es `137`.
 
+---
+
 ## Punto 4
 
 En los apartados 2 y 3 del ejercicio, el resultado obtenido es el mismo porque en ambos casos se muestra la dirección de memoria de la variable.
